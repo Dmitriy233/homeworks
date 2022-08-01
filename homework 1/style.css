@@ -41,6 +41,9 @@ a {
 .header__li:last-child {
     margin-right: 0;
 }
+.nav-link{
+    color: black;
+}
 
 .landscape {
     margin-bottom: 48px;
@@ -59,6 +62,9 @@ a {
     width: 183px;
     height: 27px;
     padding: 5px 0 5px 11px;
+}
+.input-text::placeholder{
+    color: black;
 }
 
 .background-color {
