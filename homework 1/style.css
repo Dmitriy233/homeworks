@@ -1,0 +1,89 @@
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 16px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    width: 100px;
+    height: 38.36px;
+    margin-bottom: 14.64px;
+}
+
+.header__nav {
+    display: flex;
+    margin-bottom: 47px;
+}
+
+.header__li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-right: 26px;
+}
+
+.header__li:last-child {
+    margin-right: 0;
+}
+
+.landscape {
+    margin-bottom: 48px;
+}
+
+
+.form__input {
+    margin-bottom: 10px;
+}
+
+.form__input:last-child {
+    margin-bottom: 3px;
+}
+
+.input-text {
+    width: 183px;
+    height: 27px;
+    padding: 5px 0 5px 11px;
+}
+
+.background-color {
+    background: #C4C4C4;
+}
+
+.radio {
+    margin-bottom: 7px;
+}
+
+.checkbox {
+    margin-bottom: 7px;
+}
+
+.select__menu {
+    margin-bottom: 9px;
+}
+
+.button {
+    width: 142px;
+    height: 28px;
+    margin-bottom: 37px;
+    background: #C4C4C4;
+}
+
+.button:hover {
+    cursor: pointer;
+}
