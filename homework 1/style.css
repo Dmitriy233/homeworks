@@ -93,3 +93,7 @@ a {
 .button:hover {
     cursor: pointer;
 }
+.video__content{
+    width: 550px;
+    height: 312px;
+}
