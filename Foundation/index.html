@@ -17,7 +17,7 @@
 
 <body>
     <header class="header">
-        <div class="container flex">
+        <div class="container flex ">
             <div class="logo flex">
                 <img src="./img/header/Icon.svg" alt="logo">
                 <div>
@@ -37,38 +37,45 @@
         </div>
     </header>
     <section class="about">
-        <div class="container flex">
+        <div class="container flex flex__about-column">      
             <div class="about__block">
                 <h6 class="about__title">What is it about?</h6>
-                <p class="about__text">Building a website for a startup that looks amazing is not a rocket science anymore.</p>
+                <p class="about__text">Building a website for a startup that looks amazing is not a rocket science
+                    anymore.</p>
             </div>
             <div class="about__block">
                 <h6 class="about__title">Who is it for?</h6>
                 <p class="about__text">Startups, small companies and teams, entrepreneurs and web developers.</p>
-            </div>
+        </div>
         </div>
     </section>
     <section class="resource">
-        <div class="container flex">
-            <img src="./img/resource/The new York Times.png" alt="The new York Times">
-            <img src="./img/resource/forbes.png" alt="forbes">
-            <img src="./img/resource/apple.png" alt="apple">
-            <img src="./img/resource/Mashable.png" alt="Mashable">
-            <img src="./img/resource/WSJ.png" alt="WSJ">
-            <img src="./img/resource/Google.png" alt="Google">
+        <div class="container  flex__resource-wrap">
+            <ul class="resource__list flex flex__resource-wrap">
+                <li class="resource__item"><img src="./img/resource/The new York Times.png" alt="The new York Times"></li>
+                <li class="resource__item"><img src="./img/resource/forbes.png" alt="forbes"></li>
+                <li class="resource__item"><img src="./img/resource/apple.png" alt="apple"></li>
+                <li class="resource__item"><img src="./img/resource/Mashable.png" alt="Mashable"></li>
+                <li class="resource__item"><img src="./img/resource/WSJ.png" alt="WSJ"></li>
+                <li class="resource__item"><img src="./img/resource/Google.png" alt="Google"></li>
+            </ul> 
+        </div>
         </div>
     </section>
     <section class="inbox">
-        <div class="container flex">
-            <div class="container-image">
-                <img src="./img/inbox/wheel of fortune.svg" alt="wheel of fortune">
+        <div class="container flex flex__inbox-column ">
+            <div class="container__image">
+                <img class="container__image-width" src="./img/inbox/wheel of fortune.svg" alt="wheel of fortune">
             </div>
             <div class="info">
                 <p class="info__pretitle info__pretitle-orange">Team Inbox</p>
                 <h3 class="info__title">Manage conversations</h3>
-                <p class="info__text">One place to manage and respond to all conversations with leads and users. Receive messages from leads.</p>
+                <p class="info__text">One place to manage and respond to all conversations with leads and users. Receive
+                    messages from leads.</p>
                 <div class="inbox__review">
-                    <p class="inbox__text">“Great widgets. Great selection. Great design and <span class="inbox__text-bolt">easy to implement.</span> Definitely a huge time saver for a web developer!”</p>
+                    <p class="inbox__text">“Great widgets. Great selection. Great design and <span
+                            class="inbox__text-bolt">easy to implement.</span> Definitely a huge time saver for a web
+                        developer!”</p>
                     <div class="flex flex__start">
                         <img class="inbox__img" src="./img/inbox/Profile Image.svg" alt="person">
                         <div>
@@ -81,28 +88,32 @@
         </div>
     </section>
     <section class="communicate-better">
-        <div class="container flex">
-            <div class="info">
+        <div class="container flex flex__communicate-better-column">
+            <div class="info communicate-better__info">
                 <p class="info__pretitle info__pretitle-blue info__pretitle-bottom">Communicate Better</p>
                 <h3 class="info__title info__title-bottom">Built for busy small teams</h3>
-                <p class="info__text info__text-bottom">Three products that can be used independently or combined together for your company’s needs.</p>
+                <p class="info__text info__text-bottom">Three products that can be used independently or combined
+                    together for your company’s needs.</p>
                 <button class="button">Get Started</button>
             </div>
             <div class="container-image">
-                <img src="./img/inbox/hand with phone.png" alt="hand with phone">
+                <img class="container__image-width" src="./img/inbox/hand with phone.png" alt="hand with phone">
             </div>
         </div>
-        <ul class="container flex communicate-better__services ">
+        <ul class="container flex communicate-better__services flex__communicate-better-column ">
             <li class="communicate-better__item">
-                <p class="communicate-better__text"><span class="inbox__text-bolt">Subscriptions.</span> Foundation works with the tools and services you already use every day.</p>
+                <p class="communicate-better__text"><span class="inbox__text-bolt">Subscriptions.</span> Foundation
+                    works with the tools and services you already use every day.</p>
                 <a href="#" class="communicate-better__link">Learn more about subscriptions</a>
             </li>
             <li class="communicate-better__item">
-                <p class="communicate-better__text"><span class="inbox__text-bolt">Felxible Hours.</span> Get started with our simple snippet of JavaScript or easy to install SDKs for iOS and Android.</p>
+                <p class="communicate-better__text"><span class="inbox__text-bolt">Felxible Hours.</span> Get started
+                    with our simple snippet of JavaScript or easy to install SDKs for iOS and Android.</p>
                 <a href="#" class="communicate-better__link">Get more info about hours</a>
             </li>
             <li class="communicate-better__item">
-                <p class="communicate-better__text"><span class="inbox__text-bolt">Fast Communication.</span> We offer measures like 2FA and SSO to ensure the safety of your data.</p>
+                <p class="communicate-better__text"><span class="inbox__text-bolt">Fast Communication.</span> We offer
+                    measures like 2FA and SSO to ensure the safety of your data.</p>
                 <a href="#" class="communicate-better__link">Communication guidelines</a>
             </li>
         </ul>
@@ -112,10 +123,11 @@
             <div class="info info-block ">
                 <p class="info__pretitle info-width engage-visitor__pretitle">Engage Visitors</p>
                 <h3 class="info__title info-width engage-visitor__title">Understand your audience</h3>
-                <p class="info__text info-width engage-visitors__subtitle">Early stage company? Eligible applicants get all of our products for just $49 a month.</p>
+                <p class="info__text info-width engage-visitors__subtitle">Early stage company? Eligible applicants get
+                    all of our products for just $49 a month.</p>
                 <div class="info-width">
-                    <button class="button">Get Started</button>
-                    <button class="button button-white">Learn More</button>
+                    <button class="button button-width">Get Started</button>
+                    <button class="button button-width button-white">Learn More</button>
                 </div>
             </div>
             <div class="engage-visitors__images">
@@ -143,7 +155,8 @@
         <div class="container">
             <div class="surfaces-covered__text">
                 <h2 class="surfaces-covered__title">All Surfaces Covered</h2>
-                <p class="surfaces-covered__subtitle">IOON kills bacteria on your hands, food, tables, laptops, you name it</p>
+                <p class="surfaces-covered__subtitle">IOON kills bacteria on your hands, food, tables, laptops, you name
+                    it</p>
             </div>
             <div class="surfaces-covered__photos">
                 <div class="photos__item">
