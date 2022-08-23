@@ -25,19 +25,42 @@
                     <p class="logo__text">Startup landing template</p>
                 </div>
             </div>
-            <nav class="header__nav flex">
-                <ul class="header__list flex">
-                    <li class="header__item">
-                        <a class="header__link" href="#">Home</a></li>
-                    <li class="header__item">
-                        <a class="header__link" href="#">Stories</a></li>
-                </ul>
-                <button class="button">Get Started</button>
-            </nav>
+            <div class="menu">
+                <input type="checkbox" class="header__checkbox">
+                <div class="check__wrapper">
+                    <div class="check"></div>
+                    <div class="check"></div>
+                    <div class="check"></div>
+                </div>
+                <nav class="header__nav flex">
+                    <ul class="header__list flex flex__menu">
+                        <li class="header__item">
+                            <a class="header__link" href="#">Home</a></li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Stories</a></li>
+                    </ul>
+                    <button class="button">Get Started</button>
+                </nav>
+            </div>
+            
         </div>
     </header>
+    <section class="build-websites">
+        <div class="container flex">
+            <div class="build-websites__content">
+                <h1 class="build-websites__title">Build stunning websites & apps.</h1>
+                <p class="build-websites__subtitle">Create live segments and target the right people for messages based
+                    on their behaviors.</p>
+                <button class="button build-websites__button">Get Started</button>
+                <button class="button build-websites__button button-white">Learn More</button>
+            </div>
+            <div class="build-websites__image">
+                <img src="./img/inbox/man with book.png" alt="man with book">
+            </div>
+        </div>
+    </section>
     <section class="about">
-        <div class="container flex flex__about-column">      
+        <div class="container flex flex__about-column">
             <div class="about__block">
                 <h6 class="about__title">What is it about?</h6>
                 <p class="about__text">Building a website for a startup that looks amazing is not a rocket science
@@ -46,19 +69,20 @@
             <div class="about__block">
                 <h6 class="about__title">Who is it for?</h6>
                 <p class="about__text">Startups, small companies and teams, entrepreneurs and web developers.</p>
-        </div>
+            </div>
         </div>
     </section>
     <section class="resource">
         <div class="container  flex__resource-wrap">
             <ul class="resource__list flex flex__resource-wrap">
-                <li class="resource__item"><img src="./img/resource/The new York Times.png" alt="The new York Times"></li>
+                <li class="resource__item"><img src="./img/resource/The new York Times.png" alt="The new York Times">
+                </li>
                 <li class="resource__item"><img src="./img/resource/forbes.png" alt="forbes"></li>
                 <li class="resource__item"><img src="./img/resource/apple.png" alt="apple"></li>
                 <li class="resource__item"><img src="./img/resource/Mashable.png" alt="Mashable"></li>
                 <li class="resource__item"><img src="./img/resource/WSJ.png" alt="WSJ"></li>
                 <li class="resource__item"><img src="./img/resource/Google.png" alt="Google"></li>
-            </ul> 
+            </ul>
         </div>
         </div>
     </section>
@@ -151,6 +175,20 @@
             </div>
         </div>
     </section>
+    <section class="resource">
+        <div class="container  flex__resource-wrap">
+            <ul class="resource__list flex flex__resource-wrap">
+                <li class="resource__item"><img src="./img/resource/The new York Times.png" alt="The new York Times">
+                </li>
+                <li class="resource__item"><img src="./img/resource/forbes.png" alt="forbes"></li>
+                <li class="resource__item"><img src="./img/resource/apple.png" alt="apple"></li>
+                <li class="resource__item"><img src="./img/resource/Mashable.png" alt="Mashable"></li>
+                <li class="resource__item"><img src="./img/resource/WSJ.png" alt="WSJ"></li>
+                <li class="resource__item"><img src="./img/resource/Google.png" alt="Google"></li>
+            </ul>
+        </div>
+        </div>
+    </section>
     <section class="surfaces-covered">
         <div class="container">
             <div class="surfaces-covered__text">
@@ -190,23 +228,82 @@
             </div>
             <div class="free-trial__info">
                 <h3 class="free-trial__title">Start your free trial.</h3>
-                <p class="free-trial__subtitle">Get notified about company updates, news and blog posts. We hate spam.</p>
+                <p class="free-trial__subtitle">Get notified about company updates, news and blog posts. We hate spam.
+                </p>
                 <form class="free-trial__form">
                     <input class="free-trial__email" type="email" placeholder="Enter your email">
                     <button class="button button__form">Get Started</button>
                     <div>
-                    <label class="free-trial__label">
-                    <input class="checkbox" type="checkbox">
-                    <span class="checkbox__fake"></span>
-                    <span class="checkbox__text">
-                        Free 14-day trial · Easy setup · Cancel any time. Check out   <a class="checkbox__link" href=""> Terms of Use</a>.
-                    </span>
-                </label>
-            </div>
+                        <label class="free-trial__label">
+                            <input class="checkbox" type="checkbox">
+                            <span class="checkbox__fake"></span>
+                            <span class="checkbox__text">
+                                Free 14-day trial · Easy setup · Cancel any time. Check out <a class="checkbox__link"
+                                    href=""> Terms of Use</a>.
+                            </span>
+                        </label>
+                    </div>
                 </form>
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="container flex flex__start ">
+            <div class="footer__info">
+                <div class="logo footer__logo flex flex__start">
+                    <img src="./img/header/footer logo.svg" alt="logo">
+                    <div>
+                        <h6 class="logo__title">Foundation</h6>
+                        <p class="logo__text">Startup landing template</p>
+                    </div>
+                </div>
+                <p class="footer__description">Foundation is a website template for startups and small teams. It helps
+                    to
+                    build a website in no
+                    time.</p>
+                <div class="footer__market">
+                    <img src="./img/play market/AppStore.svg" alt="app store">
+                    <img src="./img/play market/Google Play.svg" alt="google play">
+                </div>
+            </div>
+            <div class="footer__info flex flex__line">
+                <ul class="footer__list">
+                    <li class="footer__item">Product</li>
+                    <li class="footer__item"><a href="#" class="footer__link">Acquire Users</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Content Marketing</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Website Templates</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Customer Management</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Virtual Inbox</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__item">Company</li>
+                    <li class="footer__item"><a href="#" class="footer__link">About Foundation</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Brand Guidelines</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Press Kit</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__line"></div>
+        <div class="container flex">
+            <ul class="footer__license flex">
+                <li class="license__item"><a href="#" class="license__link">Terms</a></li>
+                <li class="license__item"><a href="#" class="license__link">Privacy</a></li>
+                <li class="license__item"><a href="#" class="license__link"> License</a></li>
+            </ul>
+            <ul class="footer__social flex">
+                <li class="license__item"><a href="#">
+                        <img src="./img/social/icon-twitter.svg" alt="twitter">
+                    </a></li>
+                <li class="license__item"><a href="#">
+                        <img src="./img/social/icon-fb.svg" alt="facebook">
+                    </a></li>
+                <li class="license__item"><a href="#">
+                        <img src="./img/social/LinkedIn.svg" alt="linkedin">
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
