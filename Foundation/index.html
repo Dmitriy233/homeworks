@@ -42,7 +42,6 @@
                     <button class="button">Get Started</button>
                 </nav>
             </div>
-            
         </div>
     </header>
     <section class="build-websites">
@@ -52,7 +51,7 @@
                 <p class="build-websites__subtitle">Create live segments and target the right people for messages based
                     on their behaviors.</p>
                 <button class="button build-websites__button">Get Started</button>
-                <button class="button build-websites__button button-white">Learn More</button>
+                <button id="open-modal" class="button build-websites__button button-white">Learn More</button>
             </div>
             <div class="build-websites__image">
                 <img src="./img/inbox/man with book.png" alt="man with book">
@@ -84,6 +83,44 @@
                 <li class="resource__item"><img src="./img/resource/Google.png" alt="Google"></li>
             </ul>
         </div>
+        </div>
+    </section>
+    <section class="features">
+        <div class="flex flex-stretch features__flex-column ">
+            <img class="image" src="./img/Features/ouch.svg" alt="">
+            <div class="info container">
+                <p class="info__pretitle info__pretitle-green">Features</p>
+                <h3 class="info__title">Easily find leads and customers</h3>
+                <p class="info__text">Send one-off and automated email, push, and in-app messages to people. Create
+                    better stories.</p>
+                <div class="features-info">
+                    <div class="flex flex__start">
+                        <img src="./img/Features/compass.svg" alt="">
+                        <p class="features-info__title">Acquire new customers</p>
+                    </div>
+                    <p class="features-info__description">Everything you need to start building – including open-source
+                        code, documentation.</p>
+                </div>
+                <div class="features-info">
+                    <div class="flex flex__start">
+                        <img src="./img/Features/building.svg" alt="">
+                        <p class="features-info__title">Engage users</p>
+                    </div>
+                    <p class="features-info__description">Everything you need to start building – including open-source
+                        code, documentation.</p>
+                </div>
+                <div class="features-info">
+                    <div class="flex flex__start">
+                        <img src="./img/Features/files.svg" alt="">
+                        <p class="features-info__title">Develop across platforms</p>
+                    </div>
+                    <p class="features-info__description">Everything you need to start building – including open-source
+                        code, documentation.</p>
+                </div>
+            </div>
+            <div class="features__img">
+                <img src="./img/Features/InSpace.png" alt="InSpace">
+            </div>
         </div>
     </section>
     <section class="inbox">
@@ -187,6 +224,46 @@
                 <li class="resource__item"><img src="./img/resource/Google.png" alt="Google"></li>
             </ul>
         </div>
+        </div>
+    </section>
+    <section class="hiring">
+        <div class="container">
+            <div class="hiring__info">
+                <h2 class="hiring__title">We’re hiring</h2>
+                <p class="hiring__subtitle">We’re a team of lifelong learners. We’re equal parts left and right brained.
+                </p>
+                <button class="button hiring__button">More about Company</button>
+            </div>
+            <div class="hiring__position">
+                <div class="flex ">
+                    <p class="position__title">Front-End Developer</p>
+                    <p class="position__location">Los Angeles / Remote</p>
+                    <p class="position__close">></p>
+                    <div class="position__close-background"></div>
+                </div>
+                <p class="position__description">Everything you need to start building – including open-source code,
+                    documentation.</p>
+            </div>
+            <div class="hiring__position ">
+                <div class="flex ">
+                    <p class="position__title">Community Manager</p>
+                    <p class="position__location">New York / Full-Time</p>
+                    <p class="position__close">></p>
+                    <div class="position__close-background"></div>
+                </div>
+                <p class="position__description">Everything you need to start building – including open-source code,
+                    documentation.</p>
+            </div>
+            <div class="hiring__position">
+                <div class="flex ">
+                    <p class="position__title">UX/UI Designer</p>
+                    <p class="position__location">UX/UI Designer</p>
+                    <p class="position__close">></p>
+                    <div class="position__close-background"></div>
+                </div>
+                <p class="position__description">Everything you need to start building – including open-source code,
+                    documentation.</p>
+            </div>
         </div>
     </section>
     <section class="surfaces-covered">
@@ -304,6 +381,18 @@
             </ul>
         </div>
     </footer>
+    <div class="modal-overlay">
+        <div class="modal">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque quam at quod qui architecto optio odio
+                harum aperiam, consectetur saepe.</p>
+            <p class="close">X</p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/modal.js"></script>
 </body>
 
 </html>
