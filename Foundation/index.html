@@ -12,7 +12,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
         integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
         crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css"
+        integrity="sha512-UBY4KATrDAEKgEEU+RAfY4yWrK0ah43NGwNr5o/xmncxsT+rv8jp7MI3a00I0Ep3NbAx05U5kw3DvyNCoz+Wcw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/review.css">
 </head>
 
 <body>
@@ -37,7 +41,7 @@
                         <li class="header__item">
                             <a class="header__link" href="#">Home</a></li>
                         <li class="header__item">
-                            <a class="header__link" href="#">Stories</a></li>
+                            <a id="surfaces-covered-link" class="header__link" href="#">Stories</a></li>
                     </ul>
                     <button class="button">Get Started</button>
                 </nav>
@@ -226,6 +230,39 @@
         </div>
         </div>
     </section>
+    <section class="review">
+        <div class="container">
+        <p class="review__title">
+            Trusted by the world’s most innovative businesses – big and small
+        </p>
+        <div class="slider">
+            <div class="slide">
+                <p class="review__text">
+                    “Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages,
+                    send emails, find freelancers. Perfect for sales, marketing, and support”
+                </p>
+                <p class="review__username">Viella Malkovich</p>
+                <p class="review__userposition">Creative Director at Johnson</p>
+            </div>
+            <div class="slide">
+                <p class="review__text">
+                    “Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione fuga quod dolores ex reiciendis officiis quas laudantium cumque, maxime tenet.”
+                </p>
+                <p class="review__username">Kate Malkovich</p>
+                <p class="review__userposition">Web Designer</p>
+            </div>
+            <div class="slide">
+                <p class="review__text">
+                    “Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos, deserunt quo ullam facilis voluptatibus officia numquam dolorem quia aspernatur.”
+                </p>
+                <p class="review__username">john Malkovich</p>
+                <p class="review__userposition">UX/UI Designer</p>
+            </div>
+        </div>
+        <img class="review__image" src="./img/man with a balloon.png" alt="man with a balloon">
+    </div>
+    <div class="line"></div>
+    </section>
     <section class="hiring">
         <div class="container">
             <div class="hiring__info">
@@ -266,7 +303,7 @@
             </div>
         </div>
     </section>
-    <section class="surfaces-covered">
+    <section id="surfaces-covered" class="surfaces-covered">
         <div class="container">
             <div class="surfaces-covered__text">
                 <h2 class="surfaces-covered__title">All Surfaces Covered</h2>
@@ -388,11 +425,19 @@
             <p class="close">X</p>
         </div>
     </div>
+    <div id="up">
+        <span>UP</span>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"
+        integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./script/bxslider.js"></script>
     <script src="./script/script.js"></script>
     <script src="./script/modal.js"></script>
+    <script src="./script/upButton.js"></script>
 </body>
 
 </html>
