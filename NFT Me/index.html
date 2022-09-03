@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTF Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Source+Sans+Pro:wght@400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container flex flex-start">
+            <div class="logo">
+                <img src="./img/logo/logo.svg" alt="logo">
+            </div>
+            <div class="menu">
+                <input type="checkbox" class="checkbox" id="checkbox-menu">
+                <div class="check__wrapper">
+                    <div class="check"></div>
+                    <div class="check"></div>
+                    <div class="check"></div>
+                </div>
+                <div class="menu__all flex">
+                    <ul class="navigation flex">
+                        <li class="navigation__item">
+                            <a id="marketplace-link" class="navigation__link" href="#">Marketplace</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a id="artists-link" class="navigation__link" href="#">Artists</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a id="contact-link" class="navigation__link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <button id="open-modal" class="button menu__button">Buy Template</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="discover">
+        <div class="container">
+            <div class="discover__content">
+                <h1 class="discover__title">Discover rare digital art and collect NFT’s</h1>
+                <h3 class="discover__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                    interdum.
+                </h3>
+            </div>
+            <div class="discover__image container ">
+                <img class="image__big" src="./img/discover/Frame (1).png" alt="">
+                <img class="image__small" src="./img/discover/IMAGE.png" alt="">
+            </div>
+        </div>
+        <div class="flex flex-start player">
+            <p class="player__title">Watch video</p>
+            <img src="./img/discover/play.svg" alt="play">
+        </div>
+    </section>
+    <section class="statistics">
+        <div class="container flex flex__column-reverse">
+            <p class="statistics__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                ut commodo diam libero vitae erat.</p>
+            <ul class="statistics__data flex">
+                <li class="statistics__item">
+                    <p class="statistics__value">17K</p>
+                    <p class="statistics__name">Artwork</p>
+                </li>
+                <li class="statistics__item">
+                    <p class="statistics__value">4.5K</p>
+                    <p class="statistics__name">Auctions</p>
+                </li>
+                <li class="statistics__item">
+                    <p class="statistics__value">23</p>
+                    <p class="statistics__name">Artists</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="artwork">
+        <div class="artwork__block-1 flex  artwork__flex-column ">
+            <div class="artwork__item">
+                <img src="./img/artwork/artwork 1.png" alt="artwork 1">
+            </div>
+            <div class="artwork__item">
+                <img src="./img/artwork/artwork 2.png" alt="artwork 2">
+            </div>
+            <div class="artwork__item">
+                <img src="./img/artwork/artwork 3.png" alt="artwork 3">
+            </div>
+        </div>
+        <div class="artwork__block-2 flex artwork__flex-column ">
+            <div class="artwork__item">
+                <img src="./img/artwork/artwork 4.png" alt="artwork 4">
+            </div>
+            <div class="artwork__item">
+                <img src="./img/artwork/artwork 5.png" alt="artwork 5">
+            </div>
+            <div class="artwork__item">
+                <img src="./img/artwork/artwork 6.png" alt="artwork 6">
+            </div>
+        </div>
+    </section>
+    <section class="create">
+        <div class="container">
+            <h2 class="create__title">Create and sell NFTs</h2>
+            <ul class="create__list flex flex-start flex__column-reverse">
+                <li class="create__item">
+                    <div class="item__circle"></div>
+                    <p class="item__title">Connect your wallet</p>
+                    <p class="item__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <div class="line"></div>
+                </li>
+                <li class="create__item">
+                    <div class="item__circle"></div>
+                    <p class="item__title">Explore our marketplace</p>
+                    <p class="item__subtitle">Lorem ipsum dolor sit amet, consectetur</p>
+                    <div class="line"></div>
+                </li>
+                <li class="create__item">
+                    <div class="item__circle"></div>
+                    <p class="item__title">Create your collection</p>
+                    <p class="item__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    <div class="line"></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="marketplace" class="trending">
+        <div class="container ">
+            <div class="grid">
+                <div class="trending__content">
+                    <h2 class="trending__title">Trending this week</h2>
+                    <p class="trending__subtitle">Lorem ipsum dolor sit amet, consectetur dolore adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="trending__content">
+                    <h3 class="content__title">Jason Riley</h3>
+                    <div class="flex">
+                        <p class="content_description">Miricale Culture</p>
+                        <p class="content__price">3.24 ETH</p>
+                    </div>
+                    <img src="./img/Trending/Jason Riley.png" alt="">
+                </div>
+                <div class="trending__content">
+                    <h3 class="content__title">Mandy Ross</h3>
+                    <div class="flex">
+                        <p class="content_description">Miricale Culture</p>
+                        <p class="content__price">3.24 ETH</p>
+                    </div>
+                    <img src="./img/Trending/Mandy Ross.png" alt="">
+                </div>
+                <div class="trending__content">
+                    <h3 class="content__title">Lewis Lowie</h3>
+                    <div class="flex">
+                        <p class="content_description">Miricale Culture</p>
+                        <p class="content__price">3.24 ETH</p>
+                    </div>
+                    <img src="./img/Trending/Lewis Lowie.png" alt="">
+                </div>
+                <div class="trending__content">
+                    <h3 class="content__title">Dan Gatty</h3>
+                    <div class="flex">
+                        <p class="content_description">Miricale Culture</p>
+                        <p class="content__price">3.24 ETH</p>
+                    </div>
+                    <img src="./img/Trending/Dan Gatty.png" alt="">
+                </div>
+                <div class="trending__content">
+                    <h3 class="content__title">Mandy Ross</h3>
+                    <div class="flex">
+                        <p class="content_description">Miricale Culture</p>
+                        <p class="content__price">3.24 ETH</p>
+                    </div>
+                    <img src="./img/Trending/Mandy Ross2.png" alt="">
+                </div>
+                <div class="trending__content">
+                    <h3 class="content__title">Mandy Ross</h3>
+                    <div class="flex">
+                        <p class="content_description">Miricale Culture</p>
+                        <p class="content__price">3.24 ETH</p>
+                    </div>
+                    <img src="./img/Trending/Mandy Ross3.png" alt="">
+                </div>
+                <div class="trending__content">
+                    <div class="pink-corner">
+                        <div class="pink-corner-horizontal"></div>
+                        <div class="pink-corner-vertical"></div>
+                    </div>
+                    <div class="marketplace">
+                        <a href="#">
+                            <p class="style-text">View marketplace</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="artists  flex-end">
+            <div class="artists__left">
+                <div class="pink-corner-horizontal"></div>
+                <div class="pink-corner-vertical"></div>
+                <div>
+                    <a href="#">
+                        <p class="style-text">View all artists</p>
+                    </a>
+                    <p class="artists_description">Lorem ipsum dolor sit amet,</p>
+                </div>
+            </div>
+            <h3 class="popular-artists__title">Popular artists</h3>
+        </div>
+    </section>
+    <section id="artists" class="popular-artists">
+        <div class="container  flex flex__column-reverse">
+            <div class="popular-artists__block">
+                <img class="popular-artists__work" src="./img/Popular artists/works/hand.png" alt="">
+                <img class="popular-artists__author" src="./img/Popular artists/Jason Santigo.svg" alt="">
+                <p class="popular-artists__name">Jason Santigo</p>
+                <button class="button">Follow</button>
+            </div>
+            <div class="popular-artists__block">
+                <img class="popular-artists__work" src="./img/Popular artists/works/man.png" alt="">
+                <img class="popular-artists__author" src="./img/Popular artists/Dan Rogan.svg" alt="">
+                <p class="popular-artists__name">Dan Rogan</p>
+                <button class="button">Follow</button>
+            </div>
+            <div class="popular-artists__block">
+                <img class="popular-artists__work" src="./img/Popular artists/works/Statue.png" alt="">
+                <img class="popular-artists__author" src="./img/Popular artists/Rachel Mason.svg" alt="">
+                <p class="popular-artists__name">Rachel Mason</p>
+                <button class="button">Follow</button>
+            </div>
+        </div>
+    </section>
+    <section class="backed">
+        <div class="container">
+            <h2 class="backed__title">Backed by the best</h2>
+            <p class="backed__subtitle">Lorem ipsum dolor sit amet, consectetur dolore adipiscing elit, sed do eiusmod
+                tempor incididunt.</p>
+            <div class="sponsors">
+                <div class="sponsors__item">
+                    <img src="./img/Backed/Backed logo/foxhub.svg" alt="foxhub">
+                </div>
+                <div class="sponsors__item">
+                    <img src="./img/Backed/Backed logo/hexlab.svg" alt="hexlab">
+                </div>
+                <div class="sponsors__item">
+                    <img src="./img/Backed/Backed logo/nirastate.png" alt="nirastate">
+                </div>
+                <div class="sponsors__item">
+                    <img src="./img/Backed/Backed logo/zootv.svg" alt="zootv">
+                </div>
+            </div>
+            <div class="sponsors__item sponsors__item-position">
+                <img src="./img/Backed/Backed logo/lightAI.svg" alt="lightAI">
+            </div>
+            <div class="backed_hand">
+                <img src="./img/Backed/Backed hand.png" alt="hand">
+            </div>
+        </div>
+    </section>
+    <section class="never-miss">
+        <div class="container container-background">
+            <h2 class="never-miss__title">Never miss a drop</h2>
+            <p class="never-miss__subtitle">Lorem ipsum dolor sit amet, consectetur dolore adipiscing elit, sed do
+                eiusmod
+                tempor incididunt.</p>
+            <form class="never-miss__form">
+                <input class="form__input" type="text">
+                <button class="button form__button"></button>
+            </form>
+        </div>
+    </section>
+    <footer id="contact" class="footer">
+        <div class="container flex flex__column">
+            <div class="flex flex-start flex__column">
+                <img class="logo footer__logo" src="./img/logo/logo.svg" alt="logo">
+                <ul class="navigation flex">
+                    <li class="navigation__item">
+                        <a id="marketplace-link" class="navigation__link" href="#">Marketplace</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a id="artists-link" class="navigation__link" href="#">Artists</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a id="contact-link" class="navigation__link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__social">
+                <ul class="footer__list flex">
+                    <li class="footer__item">
+                        <a href="" class="footer__link">
+                            <img src="./img/social/linkedin.svg" alt="linkedin">
+                        </a>
+                    </li>
+                    <li class="footer__item"><a href="" class="footer__link">
+                            <img src="./img/social/facebook.svg" alt="facebook">
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__link">
+                            <img src="./img/social/twitter.svg" alt="twitter">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer__line"></div>
+        <ul class="container license flex flex-start flex-wrap">
+            <li class="license__item">
+                <a class="license__text" href="#">Crafted by Marion & Co.</a>
+            </li>
+            <li class="license__item">
+                <p class="license__text">|</p>
+            </li>
+            <li class="license__item">
+                <a class="license__text" href="#">Powered by Webflow</a>
+            </li>
+            <li class="license__item">
+                <p class="license__text">|</p>
+            </li>
+            <li class="license__item">
+                <a class="license__text" href="#">More templates</a>
+            </li>
+            <li class="license__item">
+                <p class="license__text">|</p>
+            </li>
+            <li class="license__item">
+                <a class="license__text" href="#">License</a>
+            </li>
+            <li class="license__item">
+                <p class="license__text">|</p>
+            </li>
+            <li class="license__item">
+                <a class="license__text" href="#">Style Guide</a>
+            </li>
+        </ul>
+    </footer>
+    <div class="modal-overlay">
+        <div class="modal">
+            <form class="modal__form" action="">
+                <input class="input" type="text" required placeholder="Name">
+                <input class="input" type="tel" required placeholder="+380-XXX-XXX-XXX">
+                <input class="input" type="email" required placeholder="Email">
+            </form>
+            <button class="button modal__button">Buy</button>
+            <div class="close">
+                <div class="close__item"></div>
+                <div class="close__item"></div>
+            </div>
+        </div>
+    </div>
+    <div id="up">
+        <span>UP</span>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script/modal.js"></script>
+    <script src="./script/upButton.js"></script>
+    <script src="./script/linkPage.js"></script>
+</body>
+
+</html>
