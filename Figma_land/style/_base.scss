@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Graphik-Regular";
+    src: url(../fonts/Graphik-Regular.woff);
+}
+
+@font-face {
+    font-family: "Graphik-Bold";
+    src: url(../fonts/Graphik-Bold.woff);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Graphik-Regular";
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background: #2091F9;
+    border-radius: 35px;
+    border: none;
+    padding: 18px 0;
+    width: 255px;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+
+
+    &:hover {
+        background: #1368b8;
+        transition: 400ms;
+    }
+}
+
+.title {
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.subtitle {
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: #374754;
+}

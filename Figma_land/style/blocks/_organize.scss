@@ -1,0 +1,25 @@
+.organize {
+    padding: 293px 0 283px;
+
+    .flex{
+        justify-content: space-between;
+    }
+
+    &__title {
+        max-width: 335px;
+        margin-bottom: 27px;
+    }
+
+    &__subtitle {
+        max-width: 532px;
+        margin-bottom: 70px;
+    }
+
+    &__button {
+        font-family: "Graphik-Bold";
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.1px;
+
+    }
+}

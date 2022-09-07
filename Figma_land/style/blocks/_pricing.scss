@@ -1,0 +1,107 @@
+.pricing {
+    background: #252B42;
+    padding: 100px 0;
+
+    &__title {
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 17px;
+    }
+
+    &__subtitle {
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 532px;
+        margin: 0 auto;
+        margin-bottom: 123px;
+    }
+
+    &__list {
+        justify-content: center;
+    }
+
+    .item {
+        background: #FFFFFF;
+        flex: 1;
+        max-width: 335px;
+        text-align: center;
+        border: 1px solid #DEDEDE;
+        box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+        border-radius: 10px;
+        padding: 40px;
+        color: #252B42;
+
+        &:not(:last-of-type) {
+            margin-right: 50px;
+        }
+
+        &:nth-child(2) {
+            background: #2091F9;
+            padding: 83px 40px;
+            color: white;
+
+            .pricing__button--white {
+                background: white;
+                color: #2091F9;
+
+                &:hover {
+                    background: rgb(206, 200, 200);
+                }
+            }
+        }
+
+        &__title {
+            font-family: "Graphik-Bold";
+            font-size: 20px;
+            margin-bottom: 3px;
+        }
+
+        &__subtitle {
+            line-height: 23px;
+            text-align: center;
+            letter-spacing: 0.1px;
+            max-width: 148px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+
+        }
+
+        &__coast {
+            text-align: start;
+            justify-content: center;
+        }
+
+        &__value,
+        &__currency {
+            font-family: "Graphik-Bold";
+            font-size: 74px;
+            line-height: 84px;
+            letter-spacing: 0.2px;
+        }
+
+        &__currency {
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 0.1px;
+        }
+
+        &__period {
+            letter-spacing: 0.1px;
+        }
+
+        &__services {
+            margin-bottom: 30px;
+
+            .services__item {
+                font-size: 15px;
+                letter-spacing: 0.2px;
+
+                &:not(:last-of-type) {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,48 @@
+.testimonials {
+    padding: 111px 0 100px;
+    text-align: center;
+
+    &__title {
+        margin-bottom: 90px;
+
+    }
+
+    &__content {
+        margin-bottom: 80px;
+    }
+
+    &__text {
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: 0.2px;
+        color: #374754;
+        max-width: 967px;
+        margin: 60px auto;
+    }
+
+    .user {
+        justify-content: center;
+        text-align: start;
+
+        &__avatar {
+            margin-right: 13px;
+        }
+
+        &__name {
+            line-height: 23px;
+            letter-spacing: 0.1px;
+            color: #374754;
+        }
+
+        &__profession {
+            font-size: 15px;
+            line-height: 28px;
+            letter-spacing: 0.2px;
+            color: #252B42;
+        }
+
+        &__button{
+            width: 276px;
+        }
+    }
+}
